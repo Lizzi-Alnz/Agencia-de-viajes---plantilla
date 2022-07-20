@@ -1,0 +1,429 @@
+.Inicio{
+    font-family: 'berlin sans fb demi';
+    background-image: url("../img/fondoavion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Destinos{
+    font-family: 'berlin sans fb demi';
+    background-image: url("../img/fondo1.2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Contactos{
+    font-family: 'berlin sans fb demi';
+    background-image: url("../img/compu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.quienessomos{
+    font-family: 'berlin sans fb demi';
+    background-image: url("../img/fondo6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.galeriaT{
+    font-family: 'berlin sans fb demi';
+    background-image: url("../img/vuelo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+
+/*Navegacion*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+
+}
+
+.vinanca {
+    margin-bottom: 30px;
+    background-color: rgba(201, 208, 209, 0.600);
+    height: 175px;
+    
+}
+.vinanca h2{
+    text-align: center;
+}
+
+
+.contenedor-nn1 {
+    margin-bottom: 30px;
+    background-color: rgba(226, 217, 95, 0.5);
+    height: 450px;
+    color: black;
+}
+
+.contenedor-nn2 {
+    margin-bottom: 30px;
+    background-color: rgba(201, 208, 209, 0.600);
+    height: 550px;
+    color: black;
+}
+
+li {
+    float: left;
+
+}
+
+li a:not(.Titulo) {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 105px;
+    height: 40px;
+
+}
+
+.Titulo {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 320px;
+    height: 40px;
+    font-size: 25px;
+}
+
+li a p:not(.title) {
+    margin-top: 12px;
+}
+
+.title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.si:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.8s;
+}
+
+
+
+.Navegacion:hover {
+    background-color: white;
+    color: red;
+    transition-duration: 0.8s;
+}
+
+
+.Navegacion {
+    background-color: red;
+}
+
+
+
+/*Contenedores ubicados a la par (Texto e imagen o solo texto)*/
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.contenedor-n1 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contenedor-n1>img {
+    width: 35%;
+    align-items: center; 
+}
+
+
+.contenedor-n1 .contenedor-texto {
+    width: 40%;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.contenedor-texto p {
+    color: black;
+    padding: 0px 0px 30px 15px;
+    text-align: justify;
+}
+
+.contenedor-texto img{
+    align-items: center;
+    height: 200px;
+    width: 300px;
+}
+
+/*efecto de Zoom para las imagenes*/
+.zoom {
+    transition: transform 0.60s;
+    display: flexbox;
+
+}
+
+.zoom:hover {
+    transform: scale(1.03);
+}
+
+/*Barra de Mensaje o Información color blanca abajo del contenedor doble*/
+
+.conoce-t {
+    margin-bottom: 30px;
+    background-color: rgba(201, 208, 209, 0.600);
+    height: 150px;
+}
+
+.misionyvision {
+    margin-bottom: 30px;
+    background-color: rgba(201, 208, 209, 0.600);
+    height: 300px;
+}
+.misionyvision p{  
+    text-align: justify;
+}
+
+/*Formularios y tablas dentro de contenedores*/
+.formulario {
+    margin-bottom: 30px;
+    background-color: rgba(201, 208, 209, 0.600);
+    height: 400px;
+}
+
+.tabla-precios{
+    margin-bottom: 30px;
+    background-color: rgba(201, 208, 209, 0.600);
+    height:800px;
+}
+
+.tabla-precios table{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.tabla-precios table td{
+    border:dotted 1px; 
+    text-align: center;
+}
+.tabla-precios table th:not(.desc){
+    width: 150px;
+}
+.tb-1{
+    border-color:rgb(15, 121, 182);
+}
+.tb-2{
+    border-color:rgb(48, 182, 15);
+}
+
+
+/*Tarjetas de información*/
+.titulo {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.cards .card {
+    background: rgba(148, 44, 44, 0.600);
+    display: flexbox;
+    width: 30%;
+    height: 550px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card>.contenido-texto-card {
+    padding: 20px 20px 20px 20px;
+    width: 90%;
+    color: #fff;
+}
+
+.cards .card>.contenido-texto-card p {
+    text-align: left;
+    font-weight: 300;
+}
+.cards .card>.contenido-texto-card h2 {
+    text-align: center;
+}
+
+/*Tarjetas de informacion con diferente color y diseño*/
+.cards-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    background-color: rgba(226, 217, 95, 0.5);
+}
+.cards-2 .card-2 {
+    margin-top: 20px;
+    display: flexbox;
+    width: 30%;
+    height: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cards-2.card-2>.contenido-texto-card {
+    padding: 20px 20px 20px 20px;
+    width: 90%;
+}
+
+.cards-2 .card-2>.contenido-texto-card h2 {
+    text-align: center;
+}
+.cards-2 .card-2>.contenido-texto-card p {
+    text-align: left;
+    font-weight: 300;
+}
+
+.cards-3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    background: rgba(95, 189, 226, 0.5);
+}
+.cards-3 .card-3 {
+    margin-top: 20px;
+    display: flexbox;
+    width: 30%;
+    height: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cards-3.card-3>.contenido-texto-card {
+    padding: 20px 20px 20px 20px;
+    width: 90%;
+}
+
+.cards-3 .card-3>.contenido-texto-card h2 {
+    text-align: center;
+}
+.cards-3 .card-3>.contenido-texto-card p {
+    text-align: left;
+    font-weight: 300;
+}
+
+
+/*Contenedores de Imagenes dentro de las tarjetas de información*/
+.galeria {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port {
+    width: 85%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    cursor: default;
+    height: 300px;
+}
+
+.imagen-port>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/*footer*/
+/* Pie de Página*/
+
+footer {
+    background-color: rgba(201, 208, 209, 0.600);
+    padding: 12px 0 12px 0;
+    margin: auto;
+    overflow: hidden;
+    cursor: pointer;
+    bottom: 0px;
+    width: 100%;
+}
+
+.Pie_Pagina {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(196, 10, 10);
+}
+
+.Content-Foot {
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+/*Estilo para el texto final del Footer*/
+.Content-Foot p {
+    color: black;
+}
+
+.Titulo-Final {
+    text-align: center;
+    margin: 20px 0 0 0;
+    color: black;
+    font-size: 25px;
+}
+
+/*formulario estilo de los inputs, etiquetas y botón*/
+.redondeado {
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(243, 235, 235, 0);
+    width: 300px;
+    height: 30px;
+    border-bottom: 2px solid black;
+  }
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition: transform 0.60s;
+    display: flexbox;
+   
+}
+
+.button:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+    transform: scale(1.03);
+}
+
+
